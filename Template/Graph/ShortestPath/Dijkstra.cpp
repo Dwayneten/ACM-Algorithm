@@ -7,7 +7,7 @@ struct Dijkstra
     static const int MAXN = 1001;
     static const int INF = 0x3f3f3f3f;
 
-	int dis[MAXN], vis[MAXN];
+    int dis[MAXN], vis[MAXN];
     // record shortest path // 
     int path[MAXN];
 
@@ -32,13 +32,13 @@ struct Dijkstra
     void add(int a, int b, int c)
     {
         // adjacency matrix //
-		// !! cover parallel edge !! //
+        // !! cover parallel edge !! //
         // w[a][b] = c;
         // undirected graph //
         // w[b][a] = c;
 
         // adjacency lists //
-		// !! allow parallel edge !! //
+        // !! allow parallel edge !! //
         edge[a].push_back(node(b, c));
         // undirected graph //
         edge[b].push_back(node(a, c));
@@ -88,7 +88,7 @@ struct Dijkstra
     }
     void find_path(int x)
     {
-		// !! no fresh line after output whole path !! //
+        // !! no fresh line after output whole path !! //
         if (x != path[x])
         {
             find_path(path[x]);
