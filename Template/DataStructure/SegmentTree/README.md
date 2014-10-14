@@ -1,9 +1,10 @@
 ## SegmentTree
 
 * DataStructure
-* µ¥µã¸üĞÂ¡¢Çø¼ä×ÜºÍ¡¢Çø¼ä×î´ó/×îĞ¡Öµ Complexity: O(logN)
+* å•ç‚¹æ›´æ–°ã€åŒºé—´æ€»å’Œã€åŒºé—´æœ€å¤§/æœ€å°å€¼ Complexity: O(logN)
 
 #### Problem
 
 1.[HDU 1754](http://acm.hdu.edu.cn/showproblem.php?pid=1754)
-1.[POJ 3264](http://poj.org/problem?id=3264)
+2.[POJ 3264](http://poj.org/problem?id=3264)
+3.[POJ 3468](http://poj.org/problem?id=3468)
