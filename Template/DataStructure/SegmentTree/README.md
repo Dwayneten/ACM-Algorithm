@@ -8,3 +8,4 @@
 1.[HDU 1754](http://acm.hdu.edu.cn/showproblem.php?pid=1754)
 2.[POJ 3264](http://poj.org/problem?id=3264)
 3.[POJ 3468](http://poj.org/problem?id=3468)
+4.[HDU 1698](http://acm.hdu.edu.cn/showproblem.php?pid=1698)
